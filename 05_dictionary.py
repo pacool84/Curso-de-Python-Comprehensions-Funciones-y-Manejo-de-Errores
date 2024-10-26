@@ -40,3 +40,23 @@ print(transform_to_list)
 
 new_dic = {name: age for (name, age) in zip(names, ages)}
 print(new_dic)
+
+#Dictionary Comprehension con condicionales 
+'''
+Su sintaxis es:
+
+{key: value for var in iterable if condition}
+'''
+
+population_v3 = {country: random.randint(1,100) for country in countries}
+print(population_v3)
+
+#Agregando la condicional 
+result = {country: population for (country, population) in population_v3.items() if population > 60}
+print(result)
+
+#Otro Ejemplo 
+
+text = 'Hola Soy Sebastian'
+unique_text = {caracter: caracter.upper() for caracter in text if caracter in 'aeiou'}
+print(unique_text)
