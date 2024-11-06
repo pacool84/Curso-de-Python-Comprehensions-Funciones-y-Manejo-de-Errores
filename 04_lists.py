@@ -1,4 +1,4 @@
-#El concepto de list comprehnesion es una manera de crear o escribirlistas de una manera mas facil y sencilla (sintaxis)
+#El concepto de list comprehnesion es una manera de crear o escribir listas de una manera mas facil y sencilla (sintaxis)
 numbers = []
 
 for element in range(1,101):
