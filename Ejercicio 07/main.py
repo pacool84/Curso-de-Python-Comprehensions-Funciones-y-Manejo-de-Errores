@@ -38,9 +38,9 @@ import my_functions
 
 def get_total(orders):
   # Tu código aquí 👇
-  result = my_functions.get_totals(orders)
-  totales = my_functions.calc_total(result)
-  return totales
+  get_totals = my_functions.get_totals(orders)
+  totals = my_functions.calc_total(get_totals)
+  return totals
 
 orders = [
   {
