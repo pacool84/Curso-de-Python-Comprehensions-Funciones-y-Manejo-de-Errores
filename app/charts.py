@@ -19,5 +19,5 @@ def generate_pie_chart(labels, values):
 if __name__ == '__main__':
   labels = ['a', 'b', 'c']
   values = [100, 200, 80]
-  #generate_bar_chart(labels, values)
-  generate_pie_chart(labels, values)
+  generate_bar_chart(labels, values)
+  #generate_pie_chart(labels, values)
